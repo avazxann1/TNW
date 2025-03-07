@@ -2,4 +2,47 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 
+:root {
+    --primary-color: #3A3838;
+    --dark-color:#FFFFFF;
+    --secondary-color:#EF4423;
+    --text-color:#EBEBEB;
+}
 
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1400px;
+    margin: auto;
+    background-color: rgba(207, 117, 117, 0.74);
+  
+}
+.logo {
+    text-align: center;
+}
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+}
+.nav-item {
+    color: var(--primary-color);
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 145px;
+}
+.nav {
+    display: flex;
+    gap: 25px;
+}
+.img-n1 {
+    padding: 15px 145px;
+}
